@@ -24,7 +24,7 @@ namespace AsaTutorialWebApi.Controllers
         }
 
         [HttpPost("upload")]
-        public IActionResult Post([FromForm(Name = "files")] List<IFormFile> files)
+        public IActionResult Post([FromForm(Name = "the_file")] List<IFormFile> files)
         {
             try
             {
